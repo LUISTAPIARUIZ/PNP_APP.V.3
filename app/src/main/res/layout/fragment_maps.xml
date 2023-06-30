@@ -1,0 +1,75 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FragmentMaps"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF"
+    tools:context=".ConfiguracionFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="92dp"
+            android:layout_height="90dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.939"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.779">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="66dp"
+                android:layout_height="72dp"
+                android:layout_weight="1"
+                android:background="@drawable/border_radius2">
+
+                <Button
+                    android:id="@+id/btn_home2"
+                    android:layout_width="88dp"
+                    android:layout_height="72dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#00DD1E1E"
+                    android:textColor="#000000"
+                    android:textColorHighlight="#03FFFFFF"
+                    android:textColorLink="#00FFFFFF"
+                    app:icon="@drawable/advertencia"
+                    app:iconSize="40dp"
+                    app:iconTint="#0C0C0C"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_radius2"
+                android:backgroundTint="@color/design_default_color_surface"
+                android:gravity="center"
+                android:text="Reportar" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

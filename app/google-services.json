@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "4495996675",
+    "project_id": "proyectoautonoma-222ab",
+    "storage_bucket": "proyectoautonoma-222ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4495996675:android:b84201cfc204f6995fdb36",
+        "android_client_info": {
+          "package_name": "com.example.proyectoua"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "4495996675-2b38oub4aarl26jrebs9fjm8u56jqtb4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf5pXdbVj0EtiTXDpUbzHt72y12d1dvrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "4495996675-2b38oub4aarl26jrebs9fjm8u56jqtb4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
